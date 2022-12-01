@@ -1,0 +1,52 @@
+# Same as '--cache-dir'
+# Default is your system cache dir
+cache-dir: /opt/trivy-cache
+
+# Same as '--severity'
+# Default is all severities
+severity:
+  - HIGH
+  - CRITICAL
+
+# Same as '--exit-code'
+# Default is 0
+exit-code: 0
+
+# Same as Image Option
+image:
+  # Same as '--input' (available with 'trivy image')
+  # Default is empty
+  input:
+
+  # Same as '--removed-pkgs'
+  # Default is false
+  removed-pkgs: false
+
+server:
+  # Same as '--server' (available in client mode)
+  # Default is empty
+  addr: http://192.168.18.47:8040
+
+# Scan Option
+scan:
+  # Same as '--file-patterns'
+  # Default is empty
+  file-patterns:
+
+  # Same as '--skip-dirs'
+  # Default is empty
+  skip-dirs:
+
+  # Same as '--skip-files'
+  # Default is empty
+  skip-files:
+
+  # Same as '--offline-scan'
+  # Default is false
+  offline-scan: false
+
+  # Same as '--security-checks'
+  # Default depends on subcommand
+  security-checks:
+    - vuln
+    - config
