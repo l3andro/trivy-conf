@@ -53,4 +53,3 @@ scan:
   # Default depends on subcommand
   security-checks:
     - vuln
-    - config
