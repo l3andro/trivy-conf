@@ -12,6 +12,10 @@ severity:
 # Default is 0
 exit-code: 0
 
+# Same as '--timeout'
+# Default is '5m'
+timeout: 10m
+
 # Same as Image Option
 image:
   # Same as '--input' (available with 'trivy image')
