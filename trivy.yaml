@@ -2,6 +2,9 @@
 # Default is your system cache dir
 cache-dir: /opt/trivy-cache
 
+cache:
+  backend: 'redis://192.168.18.47:8379'
+
 # Same as '--severity'
 # Default is all severities
 severity:
