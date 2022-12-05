@@ -59,9 +59,9 @@ scan:
 
 # Report Options
 
-format: json
+format: html
 
-output: trivy-report.json
+output: trivy-report.html
 
 
 
