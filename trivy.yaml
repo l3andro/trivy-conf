@@ -61,8 +61,8 @@ scan:
 
 format: template
 
-output: trivy-report.html
+output: trivy-report.xml
 
-template: "template-html.tpl"
+template: "template-xml.tpl"
 
 
