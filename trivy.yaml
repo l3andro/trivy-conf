@@ -56,3 +56,12 @@ scan:
   # Default depends on subcommand
   security-checks:
     - vuln
+
+# Report Options
+
+format: json
+
+output: trivy-report.json
+
+
+
