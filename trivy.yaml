@@ -26,10 +26,10 @@ image:
   # Default is false
   removed-pkgs: false
 
-server:
+#server:
   # Same as '--server' (available in client mode)
   # Default is empty
-  addr: http://192.168.18.47:8040
+#  addr: http://192.168.18.47:8040
 
 # Scan Option
 scan:
