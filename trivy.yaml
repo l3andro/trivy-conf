@@ -63,6 +63,6 @@ format: template
 
 output: trivy-report.html
 
-#template: "@contrib/html.tpl"
+template: "template-html.tpl"
 
 
