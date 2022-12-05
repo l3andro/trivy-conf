@@ -59,10 +59,10 @@ scan:
 
 # Report Options
 
-format: template
+format: html
 
 output: trivy-report.html
 
-template: "@contrib/html.tpl"
+#template: "@contrib/html.tpl"
 
 
